@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <h1 class="register-heading">Register</h1>
+    <p class="new2">Give your visitor a smooth online experience with a solid Aishu's craft</p>
+    <div class="container">
+        <div class="register-container">
+            <div class="user-type">
+                <label for="freelancer">
+                    <input type="radio" id="freelancer" name="user-type" value="freelancer" required>
+                    <i class="Freelancer"></i> Admin
+                </label>
+                <label for="employee">
+                    <input type="radio" id="employee" name="user-type" value="employee" required>
+                    <i class="Employee"></i>Client
+                </label>
+            </div><br>
+
+            <form action="#" method="POST" class="register-form">
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <div class="form-group checkbox">
+                    <input type="checkbox" id="keepSignedIn" name="keepSignedIn">
+                    <label for="keepSignedIn"><h1>You accept our Terms and Conditions and Privacy Policy</h1></label>
+                </div>
+
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
